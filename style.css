@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url('images/bg.jpg');
+    
+
+}
+.mainbox{
+    background-color: #fff;
+    /* margin-top: 30px; */
+    height: 500px;
+    width: 95%;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+nav{
+    display: flex;
+    margin-top: 20px;
+}
+#snap{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+ul li{
+    list-style: none;
+    float: right;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #111;
+
+
+}
+ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+}
+.register{
+    padding-left: 600px;
+    display: flex;
+    
+}
+#login{
+    font-size: 18px;
+
+
+}
+#register{
+    margin-left: 20px;
+    height: 25px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #111;
+}
+.section{
+    padding-top: 20px;
+    /* display: flex; */
+    padding-left: 100px;
+}
+.paras{
+    display: inline-block;
+}
+#head{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+#details{
+    padding-top: 20px;
+}
+#learnMore{
+    margin-top: 30px;
+    background-color: #111;
+    color: #fff;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+}
+.rightImage{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 500px;
+    top: 130px;
+    
+}
